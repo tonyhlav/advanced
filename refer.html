@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Advanced Oral & Maxillofacial Surgery</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,300,500' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container nav-bor">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img height="35px;" src="img/logo.svg" alt="Logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#doctors">Doctors</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="index.html#advantages">Advantages</a></li>
+            <li><a href="refer.html">Refer</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+
+<!-- FORM -->
+
+
+<section>
+
+
+<div class="form-bg">
+  <div class="form-over">
+    <div class="container">
+      <div class="row pa-se">
+
+
+      <h3 class="sec-title">Refer a Patient</h3>
+      <h4 class="sub-title2">Patients require a referral from either a doctor or dentist</h4>
+      <div class="devider" style="padding-bottom: 20px;"><img class="img-responsive div-mar" src="img/divy.svg" alt="devider"></div>
+
+
+
+
+        <div class="valign">
+            <div class="valign-in">
+
+            <div class="col-md-8 col-md-offset-2">
+
+                <form style="margin: 0 auto;" action="process.php" method="post" id="contact_form">
+
+
+
+                <!-- PATIENT DETAILS -->
+                  <h5>PATIENTS DETAILS</h5>
+                  <div class="row ros">
+
+                  <!-- PATIENTS NAME -->
+                    <div class="col-sm-6">
+                    <h6>* Patient's Name</h6>
+                      <div class="p-name">
+                        <input id="p-name" name="name" type="text" placeholder="Mr. John Smith" required>
+                      </div>
+                    </div>
+                  <!-- PATIENTS PHONE NUMBER -->
+                    <div class="col-sm-6">
+                    <h6>* Patient's Phone Number</h6>
+                      <div class="p-tel">
+                        <input id="p-tel" name="tel" type="tel" placeholder="(XXXX) XXXX - XXX" required>
+                      </div>
+                    </div>
+                  <!-- PATIENTS DATE OF BIRTH -->
+                    <div class="col-sm-6">
+                    <h6>* Patient's Date of Birth</h6>
+                      <div class="p-date">
+                        <input id="p-date" name="tel" type="date">
+                      </div>
+                    </div>
+                  <!-- PATIENTS GENDER -->
+                    <div class="col-sm-6">
+                    <h6>* Patient's Gender</h6>
+                      <select id="p-gender" name="gender" >
+                          <option value="" disabled selected>Choose Gender</option>
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                      </select>
+                    </div>
+                    <!-- PATIENTS ADDRESS -->
+                    <div class="col-sm-8">
+                    <h6>* Patient's Address of Living</h6>
+                      <div class="p-address">
+                        <input id="p-address" name="name" type="text" placeholder="City, Street NO, Country">
+                      </div>
+                    </div>
+
+                  </div>
+
+
+                  <!-- PATIENT DETAILS -->
+
+
+
+
+
+
+
+                  <!-- REASON FOR REFFERAL -->
+                  <h5>REASON FOR REFFERAL</h5>
+                  <div class="row ros rom">
+
+                    <div class="col-sm-4">
+                      <input type="checkbox" id="c1" name="reason" value="extraction">
+                      <label for="c1"><span></span>Extraction Of Teeth</label>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <input type="checkbox" id="c2" name="reason" value="exposure">
+                      <label for="c2"><span></span>Exposure Of Teeth</label>
+                    </div>
+
+
+                    <div class="col-sm-4">
+                      <input type="checkbox" id="c3" name="reason" value="eot">
+                      <label for="c3"><span></span>Implant Prosthetic Surgery</label>
+                    </div>
+
+
+                    <div class="col-sm-4">
+                      <input type="checkbox" id="c4" name="reason" value="pathology">
+                      <label for="c4"><span></span>Pathology</label>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <input type="checkbox" id="c5" name="reason" value="facialpain">
+                      <label for="c5"><span></span>Facial Pain</label>
+                    </div>
+
+
+                    <div class="col-sm-4">
+                      <input type="checkbox" id="c6" name="reason" value="osa">
+                      <label for="c6"><span></span>Obstructive Sleep Apnoea</label>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <input type="checkbox" id="c7" name="reason" value="other">
+                      <label for="c7"><span></span>Other</label>
+                    </div>
+
+                    <div class="message text-bef">
+                      <textarea id="message" name="message" placeholder="* Comment" rows="3" cols="4" required=""></textarea>
+                    </div>
+
+                  </div>
+
+                  <!-- REASON FOR REFFERAL -->
+
+
+
+
+
+
+
+                  <!-- REASON FOR REFFERAL -->
+                  <h5>REFERRAL TO</h5>
+                  <div class="row ros">
+                    <div class="row" style="margin-bottom:10px;">
+                    <div class="col-sm-4">
+                      <input id="r1" type="radio" name="type">
+                      <label for="r1"><span></span>Earliest Appoitment</label>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <input id="r2" type="radio" name="type" value="customurl">
+                      <label for="r2"><span></span>DR.Nathan Quinn</label>
+                    </div>
+                    <div class="col-sm-4">
+                      <input id="r3" type="radio" name="type" value="customurl">
+                      <label for="r3"><span></span>DR.Mary M. Paulk</label>
+                    </div>
+                    <div class="col-sm-4">
+                      <input id="r4" type="radio" name="type" value="customurl">
+                      <label for="r4"><span></span>DR.Mark M. Horn</label>
+                    </div>
+
+                    <div class="row">
+                    <div class="col-sm-4"  style="margin-top:10px;">
+                      <input id="r5" type="radio" name="type">
+                      <label for="r5"><span></span>Other</label>
+                    </div>
+                    </div>
+                  </div>
+
+                  <!-- REASON FOR REFFERAL -->
+
+
+
+
+
+
+
+
+
+                  <!-- REFERRAL FROM -->
+                  <h5>REFERRAL TO</h5>
+                  <div class="row ros">
+
+                    <div class="col-sm-6">
+                    <h6>* Doctor Name</h6>
+                      <div class="d-name">
+                        <input id="d-name" name="name" type="text" placeholder="Dr. John Smith" required>
+                      </div>
+                    </div>
+
+
+                    <div class="col-sm-6">
+                    <h6>* Provider Number</h6>
+                      <div class="p-number">
+                        <input id="p-number" name="name" type="number" placeholder="XXXXXX" required>
+                      </div>
+                    </div>
+
+
+                    <div class="col-sm-6">
+                    <h6>Phone</h6>
+                      <div class="phone">
+                        <input id="phone" name="tel" type="tel" placeholder="(XXXX) XXXX - XXX">
+                      </div>
+                    </div>
+
+
+                    <div class="col-sm-6">
+                    <h6>Address</h6>
+                      <div class="address">
+                        <input id="address" name="name" type="text" placeholder="City, Street NO, Country">
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <input type="checkbox" id="re1" name="reason" value="extraction">
+                      <label for="re1"><span></span>Remember My Details</label>
+                    </div>
+
+                  </div>
+
+                  <!-- REFERRAL FROM -->
+
+
+
+
+
+
+
+
+
+
+                  <div class="row" style="margin-top:15px;margin-bottom:15px;">
+                    <div class="col-sm-4">
+                      <input type="radio" id="attached" name="reason" value="extraction">
+                      <label for="attached"><span></span>Attached</label>
+                    </div>
+                    <div class="col-sm-4">
+                      <input type="radio" id="tbe" name="reason" value="extraction">
+                      <label for="tbe"><span></span>To Be Emailed</label>
+                    </div>
+                    <div class="col-sm-4">
+                      <input type="radio" id="pwb" name="reason" value="extraction">
+                      <label for="pwb"><span></span>Patient Will Bring</label>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="s-butt">
+                      <input type="submit" value="Refer A Patient">
+                    </div>
+                </form>
+
+            </div>    
+
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+</section>
+
+
+<!-- FORM -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+<section id="footer">
+  <div class="footer">
+    <img width="250px;" src="img/logo.svg">
+    <h6>Id fugit audiam vel, no porro facilisi eum, est in nihil aperiri. Ei his prima putant definitiones, ponderum prodesset suscipiantur eu vix, tamquam quaestio disputando an ius.</h6>
+
+    <div class="f-i">
+      <div class="f-ii"></div>
+      <div class="f-iii"></div>
+    </div>
+
+
+
+    <div class="container f-c">
+      <div class="row">
+
+      <div class="col-md-4 f-bor">
+        <h4>About</h4>
+        <div class="doc-div2"></div>
+        <p>Lorem ipsum dolor sit amet, ut vel mandamus voluptatum, in usu veri 
+        possim, ex diceret feugiat detraxit mel. Te partem salutatus vis, 
+        causae delicata mei id, unum sale justo an ius. Usu facete utamur ut. 
+        In vix esse dolore detraxit, fugit conceptam usu in. Ubique diceret 
+        corpora ad quo.</p>
+      </div>
+
+      <div class="col-md-4 f-bor">
+        <h4>Contact Info</h4>
+        <div class="doc-div2"></div>
+        <ul>
+          <li><ul class="list-inline"><li><img width="25px" src="img/map2.svg"></li><li>238 Angas Street, Adelaide, SA 5000</li></ul></li>
+          <li><ul class="list-inline"><li><img width="25px" src="img/phone.svg"></li><li>(071) 3712 3920</li></ul></li>
+          <li><ul class="list-inline"><li><img width="25px" src="img/email.svg"></li><li>info@advancedclinic.com</li></ul></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 f-bor">
+        <h4>Opening Hours</h4>
+        <div class="doc-div2"></div>
+        <p>Monday - Friday   (08:00am - 10:00pm)</p>
+        <p>Saturday - Sunday   (09:00am - 06:00pm)</p>
+        <p>Emergency Services   (24hours Open)</p>
+      </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+    <div class="copy">
+      <h4>© COPYRIGHT 2015 advancedclinic.com | ANTONIO STOJCESKI</h4>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+    <script>
+      autoPlayYouTubeModal();
+      //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+      function autoPlayYouTubeModal() {
+          var trigger = $("body").find('[data-toggle="modal"]');
+          trigger.click(function () {
+              var theModal = $(this).data("target"),
+                  videoSRC = $(this).attr("data-theVideo"),
+                  videoSRCauto = videoSRC + "?autoplay=1";
+              $(theModal + ' iframe').attr('src', videoSRCauto);
+              $(theModal + ' button.close').click(function () {
+                  $(theModal + ' iframe').attr('src', videoSRC);
+              });
+              $('.modal').click(function () {
+                  $(theModal + ' iframe').attr('src', videoSRC);
+              });
+          });
+      }
+    </script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  </body>
+</html>
