@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Advanced is Dental Clinic that provides consultations and surgeries for conditions of the face, jaws and teeth">
+    <meta name="author" content="Digital Garden">
     <link rel="icon" href="img/favicon.ico">
 
     <title>Advanced Oral & Maxillofacial Surgery</title>
@@ -89,7 +89,7 @@
               <h2 class="sub-headline">We provide consultations and surgeries for conditions of the face, jaws, and teeth</h2>
               <div class="row">
                 <a href="#" class="btn btn-custom">Learn More</a>
-                <a href="#" class="btn btn-custom-2">Our Clinic<i class="fa fa-play-circle-o fa-lg f-my"></i></a>
+                <a href="#" class="btn btn-custom-2 btn-diss">Our Clinic<i class="fa fa-play-circle-o fa-lg f-my"></i></a>
               </div>
         </div>
 
@@ -131,8 +131,8 @@
     </div>
 
     <div class="row">
-      <div class="col-md-3"><div class="about-1"></div></div>
-      <div class="col-md-3"><div class="about-2"></div></div>
+      <div class="col-md-3 col-sm-6 col-xs-6 hidden-sm hidden-xs"><div class="about-1"></div></div>
+      <div class="col-md-3 col-sm-6 col-xs-6 hidden-sm hidden-xs"><div class="about-2"></div></div>
       <div class="col-md-6">
 
         <h5 class="about-title">Welcome To Our Clinic</h5>
@@ -499,8 +499,8 @@ delicata. Facer inermis dissentiet ad qui, ne usudecore antiopam gloriatur.</p>
 
 
 <section class="cta-contact">
-  <div class="container">
-    <div class="row d-flex">
+  <div class="container d-flex">
+    <div class="row ">
       <div class="col-md-8">
         <h4 class="cta-contact-title">Like to hear more or schedule free consultation?</h4>
         <p class="cta-contact-p">Etiam vocent gloriatur sea ut, ne putent inimicus his. Appetere imperdiet ei vim, scaevola incorrupte eos ex,
@@ -544,7 +544,7 @@ mea ei iriure tamquam patrioque. Stet saepe intellegebat te pro. Ei omnis movet 
     </div>
   </div>
 
-  <div class="container">
+  <div class="container cont-h">
     <div class="row mttt">
 
       <div class="col-md-4">
@@ -684,6 +684,14 @@ mea ei iriure tamquam patrioque. Stet saepe intellegebat te pro. Ei omnis movet 
     });
       }(jQuery));
     </script>
+
+    <script>
+  $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+  });
+</script>
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
