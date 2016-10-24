@@ -228,19 +228,221 @@ body {
 
 
 
+/* CONTACT US*/
+.contact-img{
+	width: 100%;
+
+	background:url('../img/contact.jpg') fixed center;
+	background-size: cover;
+  position:relative;
+}
+
+.contact-overlay{
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(21, 53, 89, 0.9);
+    text-align: center;
+}
+
+.contact-ptb{
+  margin-top:150px;
+  margin-bottom:100px;
+}
+
+.c-f h5{
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+.contact-box{
+  width: 100%;
+  /*border: 1px solid rgba(225, 225, 225, 0.2);*/
+  background-color: rgba(255, 255, 255, 0.04);
+  padding:20px;
+}
+
+.contact-box h5{
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact-box ul{
+  list-style-type: none;
+  color:#fff;
+  padding: 0;
+}
+
+.contact-box p{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 40px;
+  opacity: 0.6;
+}
+
+.contact-o{
+      opacity: 0.6;
+}
+
+.contact-box ul li{
+  text-align: left;
+  margin-top:15px;
+  margin-bottom:15px;
+  line-height: 60px;
+}
+
+.li-info{ line-height: 24px !important;}
+.c-bor-d{
+  border: 4px solid rgba(255, 255, 255, 0.05);
+  background: rgba(21, 53, 89, 0.8);
+  padding: 30px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.c-info-box-1{
+  width: 60px;
+  height: 60px;
+  border: 1px dotted rgba(255, 255, 255, 0.1);
+  color: #6aada4;
+  text-align: center;
+  line-height: 60px;
+  margin-top: -8px;
+  float: left;
+  margin-right: 15px;
+}
+.c-info-box-2{
+  width: 60px;
+  height: 60px;
+  border: 1px dotted rgba(255, 255, 255, 0.1);
+  color: #6aada4;
+  text-align: center;
+  line-height: 60px;
+  float: left;
+  margin-right: 15px;
+}
+.c-info-box-3{
+  width: 60px;
+  height: 60px;
+  border: 1px dotted rgba(255, 255, 255, 0.1);
+  color: #6aada4;
+  text-align: center;
+  line-height: 60px;
+  float: left;
+  margin-right: 15px;
+}
+
+.c-i{
+      line-height: 60px !important;
+}
 
 
+
+input {
+    height: 54px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(225, 225, 225, 0.2);
+    background-color: rgba(255, 255, 255, 0.04);
+    padding-left: 40px;
+    transition:all 0.3s ease-in-out;
+}
+
+input::-moz-placeholder {
+    color: #fff;
+}
+
+input:focus {
+    transition:all 0.3s ease-in-out;
+    border: 1px solid #6aada4;
+    outline: none !important;
+    color: #fff;
+    }
+
+
+form {
+    color:#fff !important;
+}
+
+
+textarea {
+    width: 100%;
+    height: 170px;
+    border: 1px solid rgba(225, 225, 225, 0.2);
+    background-color: rgba(255, 255, 255, 0.04);
+    transition:all 0.3s ease-in-out;
+    padding: 20px 40px 20px 40px;
+    resize: none;
+    margin-top:10px;
+}
+
+textarea:focus {
+    transition:all 0.3s ease-in-out;
+    border: 1px solid #6aada4;
+    outline: none !important;
+    color: #fff;
+}
+textarea::-moz-placeholder {
+    color: #fff;
+}
+
+form button {
+  color: #fff;
+  background-color: #6aada4;
+  padding: 20px 80px;
+  margin-top:24px;
+  margin-bottom:24px;
+  border: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover{
+    transition:background-color 0.3s ease-in-out;
+    background-color: #548b84;
+}
+
+.contact-textbox {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
 
 
 
 
 /*-----ABOUT-----*/
+
+
+
+
 .sec-title{
   font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-weight: 900;
 	font-size: 30px;
 	color: #313033;
+	text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sec-title-w{
+  font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 900;
+	font-size: 30px;
+	color: #fff;
 	text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -253,6 +455,15 @@ body {
 	font-size: 14px;
 	text-align: center;
   color: #313033;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sub-title-w{
+	font-size: 14px;
+	text-align: center;
+  color: #fff;
+  opacity: 0.8;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -1014,71 +1225,6 @@ form h5{
 .rom div{margin-bottom:10px;margin-top: 10px;}
 
 
-form#contact_form input[type="text"]:focus, form#contact_form input[type="text"]:hover, form#contact_form textarea:focus, form#contact_form textarea:hover, form#contact_form input[type="text"]:focus, form#contact_form input[type="text"]:hover, form#contact_form textarea:focus, form#contact_form textarea:hover {
-  border-color: #1dabb8;
-  transition:all 0.2s ease-in-out;
-
-}
-
-input:focus {
-    outline: none !important;
-    border:2px solid #1dabb8;
-    border-color: #1dabb8;
-    border-top:1px solid #1dabb8;
-}
-
-
-textarea:focus {
-    outline: none !important;
-    transition:all 0.2s ease-in-out;
-}
-
-
-form#contact_form textarea {
-  text-align:left;
-  padding-left: 25px;
-    color:#fff;
-    text-align: left;
-    width: 100%;
-    height: 100px;
-    background: rgba(255, 255, 255, 0.1);
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    margin-bottom:20px;
-    transition:all 0.2s ease-in-out;
-
-
-}
-
-form#contact_form input[type="submit"] {
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-    width: 260px;
-    height: 40px;
-    border-radius: 2px !important;
-    border-top: none !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-bottom: 2px solid #008d9a;
-    background-color: #1dabb8;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: 2px;
-    transition:all 0.2s ease-in-out;
-}
-
-form#contact_form input[type="submit"]:hover {
-  background-color: #008d9a;
-}
-
-
-
-
-
-
 
 
 /*MAPS*/
@@ -1359,6 +1505,10 @@ form#contact_form input[type="submit"]:hover {
         padding:40px;
       }
 
+      .li-email-m{
+        margin-top:40px !important;
+      }
+
    	}
 
     /* Small Devices, Tablets */
@@ -1389,5 +1539,6 @@ form#contact_form input[type="submit"]:hover {
       .sub-headline{font-size:14px;line-height:20px;}
       .hero-img{min-height: 460px;}
       .carousel-control{line-height: 200px;}
+      .sec-title-w{font-size:24px;}
     }
 }
