@@ -243,13 +243,13 @@ body {
 
 
 .a-row{
-  padding-top:40px;
-  padding-bottom:40px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .a-row div{
-  padding-top:40px;
-  padding-bottom:40px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .f-features{
@@ -1582,8 +1582,8 @@ form h5{
       .carousel-control{line-height: 300px;}
             .contact-ptb{margin-top:100px;margin-bottom: 50px;}
             .f-features{padding:10px;}
-            .a-row{padding-top:20px;padding-bottom:20px;}
-            .a-row div{padding-top:20px;padding-bottom:20px;}
+            .a-row{padding-top:10px;padding-bottom:10px;}
+            .a-row div{padding-top:10px;padding-bottom:10px;}
             .ros{padding:20px;}
     }
 
